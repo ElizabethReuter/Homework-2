@@ -3,11 +3,17 @@
 }
 
 body {
-    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);}
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  }
 
 .nav-item {
     float: right;
     background-color: lavender;
+}
+
+.nav-align-custom {
+  display: flex;
+  justify-content: right;
 }
 
 .img {
@@ -15,7 +21,7 @@ body {
     height: auto;
     border-radius: 10px;
     padding: 5px;
-    /* float: left; */
+    float: left;
 }
 
 .imgp {
@@ -28,18 +34,22 @@ body {
     padding: 30px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     border-radius: 25px;
+    position: relative;
 }
 
 /* #exampleInputMessage1 {
     height: 40px;
 } */
 
-footer {
-    position: sticky;
-    text-align: center;
-    padding: 20px;
-    background-color: gainsboro;
-    color: white;
+.footer .footer-bottom {
+  background-color: gainsboro;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  /* bottom: 0; */
+  /* border-top: solid gray 1px black; */
 }
 
 @media screen and (max-width: 992px) {
