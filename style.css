@@ -1,24 +1,32 @@
-/* *{
-    background-color: plum;
-} */
+.navbar {
+    background-color: lavender;
+}
+
+body {
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);}
 
 .nav-item {
     float: right;
+    background-color: lavender;
 }
 
 .img {
     width: 200px;
     height: auto;
+    border-radius: 10px;
+    /* float: left; */
 }
 
 .container {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 500px;
+    margin: 70px;
+    padding: 30px;
+    width: 700px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-radius: 25px;
 }
 footer {
     text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
+    padding: 20px;
+    background-color: gainsboro;
     color: white;
 }
