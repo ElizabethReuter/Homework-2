@@ -1,4 +1,24 @@
+/* *{
+    background-color: plum;
+} */
+
 .nav-item {
     float: right;
 }
 
+.img {
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
