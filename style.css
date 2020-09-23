@@ -18,7 +18,8 @@ body {
 }
 
 .imgp {
-    width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -38,3 +39,14 @@ footer {
     background-color: gainsboro;
     color: white;
 }
+
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
