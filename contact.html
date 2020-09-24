@@ -6,6 +6,10 @@
     <title>Elizabeth Reuter About Me Page</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -16,7 +20,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
@@ -46,7 +50,7 @@
             </div>
             <div class="form-group">
                 <label for="exampleInputMessage1">Message</label>
-                <input type="message" class="form-control" id="exampleInputMessage1">
+                <textarea rows="3" class="form-control" id="exampleInputMessage1"></textarea>
               </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
@@ -56,10 +60,10 @@
       </div>
     </div>
 
-    <div class="footer">
+    <footer>
       <div class="footer-bottom">
         @ Copyright
       </div>
-    </div>
+    </footer>
 </body>
 </html>

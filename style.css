@@ -39,18 +39,15 @@ body {
     position: relative;
 }
 
-/* #exampleInputMessage1 {
-    height: 40px;
-} */
-
-.footer .footer-bottom {
-  background-color: lavenderblush;  
-  height: 80px;
-  width: 100%;
+footer {
   position: absolute;
-  /* bottom: 0; */
+  width: 100%;
+  background-color: lavenderblush; 
+}
+
+.footer-bottom {
   border-top: 10px solid gainsboro;
-  color: white;
+  color: gainsboro;
   text-align: center;
   padding: 20px;
 }
